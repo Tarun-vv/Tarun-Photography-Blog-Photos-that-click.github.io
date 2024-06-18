@@ -1,0 +1,207 @@
+/* GENERAL STYLES */
+
+body {
+  line-height: 1;
+  font-family: "Roboto Condensed";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+.text-align {
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid--2--cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.gap-md {
+  gap: 2rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-align {
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-between {
+  justify-content: space-between;
+}
+
+.margin-bottom-md {
+  margin-bottom: 2.4rem !important;
+}
+
+.margin-bottom-lg {
+  margin-bottom: 3.6rem;
+}
+
+.heading-primary {
+  font-size: 3.6rem;
+  letter-spacing: 1rem;
+}
+
+.btn {
+  text-decoration: none;
+  color: black;
+}
+
+.gallery-link {
+  color: black;
+  font-size: 2.4rem;
+  display: inline-block;
+}
+
+.gallery-link:hover,
+.gallery-link:active {
+  text-decoration: none;
+}
+
+.date {
+  font-size: 2.4rem;
+  list-style: none;
+}
+
+.like-btn {
+  height: 3.6rem;
+  width: 3.6rem;
+  display: inline-block;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  border-radius: 50%;
+  padding: 0.3rem;
+  cursor: pointer;
+}
+
+.fill {
+  fill: red;
+}
+
+.image-desc-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.like-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.like-text {
+  font-size: 2.4rem;
+}
+
+/* //////////////// */
+
+/* NAV STYLES */
+
+.main-header {
+  border-bottom: rgba(0, 0, 0, 0.15);
+  border-style: solid;
+  border-width: 1px;
+  padding: 1.6rem 0;
+}
+
+.logo-link {
+  font-size: 4.8rem;
+  text-decoration: none;
+  color: black;
+}
+
+.nav-item-list {
+  list-style: none;
+  font-size: 3.6rem;
+
+  display: flex;
+  flex-direction: row;
+  gap: 2.4rem;
+}
+
+.main-nav-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* SECTION INTRO */
+
+.section-intro {
+  font-size: 2.4rem;
+  line-height: 1.2;
+  letter-spacing: 0.15rem;
+}
+
+.intro-list-text {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.intro-list-links {
+  margin-left: 2.4rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+}
+
+.intro-list-link:link,
+.intro-list-link:visited {
+  color: black;
+}
+
+.intro-list-link:hover,
+.intro-list-link:active {
+  text-decoration: none;
+}
+
+/* MAIN BODY */
+
+.img {
+  width: 100%; 
+  display: block;
+}
+
+/* ROADSIDE SHOTS GALLERY */
+
+.gallery-new-img-link {
+  text-decoration: none;
+  font-size: 3rem;
+  color: white;
+  background-color: black;
+  padding: 1rem 2rem;
+}
