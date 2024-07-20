@@ -36,6 +36,7 @@ closeBtn.addEventListener("click", function () {
 overlay.addEventListener("click", function () {
   overlay.classList.add("hidden");
   changingImg.classList.add("hidden");
+  closeBtn.classList.add("hidden");
 });
 
 // Comment Feature
@@ -46,3 +47,5 @@ const commentSection = document.querySelector(".comment-section");
 commentBtn.addEventListener("click", function () {
   commentSection.classList.toggle("hidden");
 });
+
+console.log("hello");
