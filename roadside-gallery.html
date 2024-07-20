@@ -15,7 +15,7 @@
       rel="stylesheet"
     />
   </head>
-  <body>
+  <body style="position: relative;">
     <a
       href="#nav-bar"
       style="
@@ -32,6 +32,14 @@
     >
       GO UP &uarr;
     </a>
+    <div class="overlay hidden">      
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="close-btn hidden">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+    </svg>
+    <div>
+      <img class="changing-img">
+    </div>
     <header class="main-header margin-bottom-lg" id="nav-bar">
       <nav class="main-nav-list container">
         <p class="logo">
@@ -46,7 +54,9 @@
           <li>
             <a href="join.html" class="btn"> Join </a>
           </li>
-          <li>Support</li>
+          <li>
+            <a href="suport.html" class="btn"> Support </a>
+          </li>
         </ul>
       </nav>
     </header>
@@ -235,8 +245,45 @@
               
             </div>
           </div>
+          <div>
+            <img
+              src="road crop images/roadcrop-16.jpg"
+              class="img margin-bottom-md"
+            />
+            <div class="container image-desc-box">
+              <ul style="display: inline-block">
+                <li class="date">Date: 27th May 2024</li>
+              </ul>
+              
+            </div>
+          </div>
+          <div>
+            <img
+              src="road crop images/roadcrop-15.jpg"
+              class="img margin-bottom-md"
+            />
+            <div class="container image-desc-box">
+              <ul style="display: inline-block">
+                <li class="date">Date: 27th May 2024</li>
+              </ul>
+              
+            </div>
+          </div>
+          <div>
+            <img
+              src="road crop images/roadcrop-17.jpg"
+              class="img margin-bottom-md"
+            />
+            <div class="container image-desc-box">
+              <ul style="display: inline-block">
+                <li class="date">Date: 27th May 2024</li>
+              </ul>
+              
+            </div>
+          </div>
         </div>
       </section>
     </main>
+    <script src="script.js"></script>
   </body>
 </html>
