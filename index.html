@@ -14,8 +14,19 @@
       href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    
   </head>
-  <body>
+  <body class="rel-position">
+    <div class="overlay hidden">      
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="close-btn hidden">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+    </svg>
+    <div>
+      <img class="changing-img">
+    </div>
+    
+    
     <a href="#nav-bar" style="font-size: 2rem; position: fixed; bottom: 2rem; right: 2rem; background-color: lightblue; padding: 3rem; border-radius: 50%; text-decoration: none; color: black;">
       GO UP &uarr;
     </a>
@@ -88,10 +99,20 @@
     <main class="container margin-bottom-lg" id="roadside">
       <p class="heading-primary margin-bottom-lg">ROADSIDE SHOTS</p>
       <div class="grid grid--2--cols gap-md margin-bottom-lg">
-        <div>
+        <div style="position: relative;">
+          <div class="comment-section hidden">
+            <p class="text-align comment-title">Comment ✍🏻</p>
+            <div class="comment-box">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="comment-icon">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+              </svg>
+              <p class="comment-text">This photo is amazing</p>
+            </div>
+          </div>
           <img
             src="road crop images/road2-crop.jpg"
             class="img margin-bottom-md"
+            
           />
           <div class="container image-desc-box">
             <ul style="display: inline-block">
@@ -106,6 +127,13 @@
                 
               </span>
             </p>
+            <div class="btn-comment flex flex-align gap-sm">Comment
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="comment-btn-icon">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M8.625 9.75a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H8.25m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H12m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0h-.375m-13.5 3.01c0 1.6 1.123 2.994 2.707 3.227 1.087.16 2.185.283 3.293.369V21l4.184-4.183a1.14 1.14 0 0 1 .778-.332 48.294 48.294 0 0 0 5.83-.498c1.585-.233 2.708-1.626 2.708-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0 0 12 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018Z" />
+              </svg>
+              
+              
+            </div>
           </div>
         </div>
 
@@ -126,6 +154,7 @@
                 
               </span>
             </p>
+            
           </div>
         </div>
 
@@ -611,7 +640,7 @@
 
         <div>
           <img
-            src="stillart-crop/stillart-crop6.jpg"
+            src="stillart-crop/stillart-crop-21.jpg"
             class="img margin-bottom-md"
           />
           <div class="container image-desc-box">
@@ -653,6 +682,62 @@
         <a href="stillart.html" class="gallery-link">See more &rarr;</a>
       </div>
     </main>
+    <div class="flip-box">
+      <div class="flip-box-inner">
+        <div class="flip-box-front">
+          <img src="img_paris.jpg" alt="Paris" style="width:300px;height:200px">
+        </div>
+        <div class="flip-box-back">
+          <h2>Paris</h2>
+          <p>What an amazing city</p>
+        </div>
+      </div>
+    </div>
+    <!-- /* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-box {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-box-front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip-box-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+} -->
     <script src="script.js"></script>
   </body>
 </html>
