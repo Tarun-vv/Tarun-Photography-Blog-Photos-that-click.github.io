@@ -19,3 +19,9 @@ Source: styles.css line 42
 
 The Date and Like button are wrapped under a flex-box for responsive design
 <img width="519" alt="Screenshot 2024-08-01 at 6 32 05 PM" src="https://github.com/user-attachments/assets/98c2485f-efec-4bbd-93df-7615a6aefd63">
+
+3. See more:
+-- The "See more" link shows the entire gallery of images
+<img width="350" alt="Screenshot 2024-08-01 at 6 35 01 PM" src="https://github.com/user-attachments/assets/2b781ba1-0b77-44fb-952b-5dd9b744209d">
+<img width="1224" alt="Screenshot 2024-08-01 at 6 35 33 PM" src="https://github.com/user-attachments/assets/85bdbcc5-c41b-4494-b6dd-6e0ec1207a7e">
+-- This opens the entire gallery which uses the same boilerplate code as the index.html
