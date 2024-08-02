@@ -14,7 +14,7 @@ Source: styles.css line 42
 2. Images layout:
 -- The images are layed out using a grid with 2 columns each with "1fr" width.
 <img width="1260" alt="Screenshot 2024-08-01 at 6 27 19 PM" src="https://github.com/user-attachments/assets/c57dbfa3-ce6d-4d62-a597-c129d3b81969">
--- Inside the <div>. We have the image, date , like and a comment button (still implementing)
+-- Inside the div container. We have the image, date , like and a comment button (still implementing)
 <img width="617" alt="Screenshot 2024-08-01 at 6 29 34 PM" src="https://github.com/user-attachments/assets/d3f56721-b16a-40dd-ba3a-4f5709824124">
 
 The Date and Like button are wrapped under a flex-box for responsive design
@@ -25,3 +25,25 @@ The Date and Like button are wrapped under a flex-box for responsive design
 <img width="350" alt="Screenshot 2024-08-01 at 6 35 01 PM" src="https://github.com/user-attachments/assets/2b781ba1-0b77-44fb-952b-5dd9b744209d">
 <img width="1224" alt="Screenshot 2024-08-01 at 6 35 33 PM" src="https://github.com/user-attachments/assets/85bdbcc5-c41b-4494-b6dd-6e0ec1207a7e">
 -- This opens the entire gallery which uses the same boilerplate code as the index.html
+
+Functional:
+
+1. GO-UP Button Functionality
+
+-- This button will immediately take you to the top
+
+<img width="159" alt="Screenshot 2024-08-01 at 6 40 40 PM" src="https://github.com/user-attachments/assets/8878f60b-7d67-4038-b6e2-f1f4452b9946">
+
+-- Using "position: fixed" I was able to posiiton it 50px from the right and bottom
+<img width="498" alt="Screenshot 2024-08-01 at 6 43 52 PM" src="https://github.com/user-attachments/assets/abf27839-b2d7-4a31-92e4-6b0f37017745">
+-- Yes! Inline styles : ) I am lazy
+
+2. Smooth Scroll
+
+-- The entire website has smooth scroll and clicking on any of the links takes you to the place.
+
+<img width="349" alt="Screenshot 2024-08-01 at 6 48 54 PM" src="https://github.com/user-attachments/assets/b7181c9b-30f7-474a-bb0c-1519c52c7b5e">
+
+-- Implemented using 'a href' where the href is set to the nav-bar
+
+<img width="486" alt="Screenshot 2024-08-01 at 6 50 39 PM" src="https://github.com/user-attachments/assets/982ddcc7-0c3b-4ce8-810a-acf7e21bea21">
