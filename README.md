@@ -66,3 +66,15 @@ Feature coming: going to add firebase authentication to include user login and c
 4. Gallery 
 
 Clicking on the "See more" takes you to the gallery page with all the photos in the particular type.
+
+5. Zoom in image function: 
+
+This was implemented using g js. I first selected all the elements using document.querySelectorAll() property to get all the sources of the image. 
+
+Next I made a empty div container with an img element with no src. So when we click on a image I just had to set the source of the selected element to the empty element. 
+
+I also implemented an overlay feature using Css which again wad implemented using javascript. When the image is clicked I just add the overlay class to the body. Same with the close button and the other zoom buttons. 
+
+Zoom button is implemented by increasing the width of the image.
+
+Feature upcoming: rotating the image
