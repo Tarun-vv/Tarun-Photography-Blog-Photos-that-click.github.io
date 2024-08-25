@@ -1,5 +1,7 @@
 # Tarun-Photography-Blog-Photos-that-clik.github.io
 
+Hey! Welcome to my blog. I made this blog yo showcase my love for photography 📸.  Enjoy my photos. 
+
 Hey! This is the documentation for my photography blog
 
 Brief Overview:
