@@ -1,10 +1,17 @@
 # Tarun-Photography-Blog-Photos-that-clik.github.io
 
-Hey! Welcome to my blog. I made this blog yo showcase my love for photography 📸.  Enjoy my photos. 
+Hey! Welcome to my blog. I made this blog to showcase my love for photography 📸.  Enjoy my photos.
 
-Hey! This is the documentation for my photography blog
+Table of Conents:
+1. Overview of the project
+2. Functionality 
 
-Brief Overview:
+Tech Stack:
+1. HTML
+2. CSS
+3. JAVASCRIPT
+
+Overview of the project:
 
 1. Nav Bar:
 -- At the top of the website, we have the website which has the "Home" menu for convinience, "Join" and "Support" pages
@@ -28,7 +35,7 @@ The Date and Like button are wrapped under a flex-box for responsive design
 <img width="1224" alt="Screenshot 2024-08-01 at 6 35 33 PM" src="https://github.com/user-attachments/assets/85bdbcc5-c41b-4494-b6dd-6e0ec1207a7e">
 -- This opens the entire gallery which uses the same boilerplate code as the index.html
 
-Functional:
+Functionality:
 
 1. GO-UP Button Functionality
 
@@ -49,3 +56,9 @@ Functional:
 -- Implemented using 'a href' where the href is set to the nav-bar
 
 <img width="486" alt="Screenshot 2024-08-01 at 6 50 39 PM" src="https://github.com/user-attachments/assets/982ddcc7-0c3b-4ce8-810a-acf7e21bea21">
+
+3. Like and comment:
+
+Like button was implemented using javascript.
+     
+Feature coming: going to add firebase authentication to include user login and cloud firestore to track the number of likes on photos
