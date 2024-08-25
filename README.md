@@ -62,3 +62,7 @@ Functionality:
 Like button was implemented using javascript.
      
 Feature coming: going to add firebase authentication to include user login and cloud firestore to track the number of likes on photos
+
+4. Gallery 
+
+Clicking on the "See more" takes you to the gallery page with all the photos in the particular type.
