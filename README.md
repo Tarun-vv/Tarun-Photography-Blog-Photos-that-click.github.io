@@ -1,12 +1,12 @@
 # Tarun-Photography-Blog-Photos-that-clik.github.io
 
-Hey! Welcome to my blog. I made this blog to showcase my love for photography 📸.  Enjoy my photos.
+## Hey! Welcome to my blog. I made this blog to showcase my love for photography 📸.  Enjoy my photos.
 
-Table of Conents:
+### Table of Conents:
 1. Overview of the project
 2. Functionality 
 
-Tech Stack:
+### Tech Stack:
 1. HTML
 2. CSS
 3. JAVASCRIPT
